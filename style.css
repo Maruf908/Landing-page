@@ -58,6 +58,7 @@ header{
 .banner-div{
     display: flex;
     justify-content: center; 
+    margin-top: 40px;
 }
 .banner{
     width: 1200px;
@@ -94,3 +95,110 @@ header{
 .right-banner{
    margin-left: 100px;
 }
+
+/* Blog section */ 
+.blog-section{
+    width: 1200px;
+    
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    grid-column-gap: 20px; 
+   
+    
+}
+.blog{
+    border: 1px solid #F84661;
+   border-radius: 20px;
+   box-shadow: 0px 0px 10px 3px #F86E46;
+   
+}
+.blog img{
+    width: 350px; 
+    margin-left: 17px;
+    margin-top: 10px;
+}
+.img-blog{
+  transform: translate(0%,-220%);  
+    position: absolute;
+}
+    
+.img-blog p{
+    background-image: linear-gradient(300deg,rgb(107, 102, 102) 10%,white 90%);
+    border-radius: 50%;
+   display: grid;
+   justify-content: center;
+   align-items: center;
+    width: 60px;
+    height: 60px;
+    font-size: 12px;
+    color: #F84661;
+    transform: rotate(-40deg);
+}
+
+.img-blog h2{
+   text-transform: uppercase;
+   transform: rotate(-90deg); 
+  position: relative;
+  font-size: 25px;
+  left: -60px;
+  bottom: -80px;
+  color: #d8cccc;
+   
+   
+}
+.font-awesome{
+    display: flex;
+    justify-content: center;
+    
+}
+.font-awesome p{
+   color: #F84661;
+    margin-right: 20px;
+} 
+.h3{
+    
+    color: #F84661; 
+    font-size: 30px; 
+} 
+.font-blog{
+   text-align: center;
+}
+.font-blog p{
+    display: inline;
+    margin-left: 2px;
+    margin-right: 2px; 
+    background-color: #FCA800; 
+    padding: 2px 3px;
+    border-radius: 15px; 
+    color: white;
+   
+}
+
+.icon{
+    margin-left: 15px ;
+    margin-right: 15px;
+    font-size: 25px;
+    
+} 
+.profile-btn{
+    border:1px solid #F84661;
+    padding: 10px 30px; 
+    color: #F84661;
+    background-color: white; 
+    border-radius: 5px;
+    margin-right: 20px;
+} 
+.invite-btn{
+    border: none;
+    padding: 10px 20px; 
+    color: #ffffff;
+    background-image: linear-gradient(320deg, #FCA800, #F84661); 
+    border-radius: 5px; 
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 20px;
+} 
+
+/* Content setion */
