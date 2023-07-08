@@ -164,6 +164,7 @@ header{
 } 
 .font-blog{
    text-align: center;
+   margin-bottom: 20px;
 }
 .font-blog p{
     display: inline;
@@ -201,4 +202,32 @@ header{
     margin-left: 20px;
 } 
 
-/* Content setion */
+/* Content setion */ 
+.container{
+    background-image:linear-gradient(320deg, #fca80046, #f8466130 );
+}
+.main-content{
+    display: flex;
+    justify-content: center; 
+    margin-top: 70px;
+} 
+.content-section{
+    width: 1200px;
+} 
+
+.contents{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.content img{
+    width: 50px;
+    margin-left: 45%; 
+    margin-top: 20px;
+    
+} 
+.content h2{ 
+    text-align: center;
+}
+.content p{
+    text-align: center;
+}
