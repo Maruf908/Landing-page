@@ -204,7 +204,8 @@ header{
 
 /* Content setion */ 
 .container{
-    background-image:linear-gradient(320deg, #fca80046, #f8466130 );
+    background-image:linear-gradient(320deg,  #f8466130, #fca80046 );
+    padding-bottom: 30px;
 }
 .main-content{
     display: flex;
@@ -231,3 +232,151 @@ header{
 .content p{
     text-align: center;
 }
+
+/* Div section */
+.div-sector{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+} 
+.div-section{
+    width: 1200px;
+}
+.divs{
+    display: grid;
+    grid-template-columns: repeat(4,1fr); 
+    grid-column-gap: 40px;
+} 
+.div{
+    box-shadow: 0px 0px 5px 5px rgb(237, 228, 228);
+    padding: 25px 5px;
+    text-align: center; 
+    border-radius: 10px;
+} 
+.div h2{
+    font-size: 30px;
+} 
+
+/* Social media */ 
+.yahoo{
+    background-image:linear-gradient(320deg,   #fca80046,#f8466130 );
+    padding-bottom: 40px;
+}
+.social-media{
+    display: flex;
+     justify-content: center;
+}
+.social{
+    width: 1200px;
+} 
+.media img{ 
+    width: 90px;
+    margin: 10px 70px;
+}
+.another-media{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.another-media img{
+    width: 70px;
+    margin: 0px 90px;
+} 
+.media-another img{
+    width: 90px;
+    margin: 0px 100px;
+}
+
+/* Form section */
+.form-section{
+    display: flex;
+    justify-content: center;
+    background-image:linear-gradient(320deg,   #fca80046,#f8466130 ); 
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+.forms{
+    width: 1200px;
+}
+.form{
+    display: flex;
+    
+} 
+.write{
+    text-align: center;
+}
+.media-login{
+    display: flex; 
+    justify-content: center;
+}
+.media-login h4{
+    margin-right: 20px;
+    margin-left: 20px; 
+    box-shadow: 0px 0px 4px 0px grey; 
+    padding: 10px 25px;
+    border-radius: 10px; 
+    background-color: #fff;
+} 
+form{
+    display: grid;
+    justify-content: center;
+}
+input{
+    margin-top: 20px;
+    border: none;
+    border: 1px solid #F84661; 
+    padding: 10px 40px;
+    font-size: 25px;
+    border-radius: 10px;
+    background-image: radial-gradient(white,rgb(222, 218, 218));
+    
+}
+.fa-facebook{
+    color: #1877F2;
+    font-size: 23px;
+    margin-right: 10px;
+}
+.media-login img{
+   width: 23px;
+    
+   margin-right: 10px;
+} 
+
+form p{
+    text-align: right;
+    color: #F84661;
+    font-size: 18px;
+    
+} 
+.left-form img{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.right-form{
+    display: grid;
+    justify-content: center; 
+    box-shadow: 0px 0px 5px 0px grey;
+    background-color: #f1c7b28f;
+    width: 50%;
+    border-radius: 10px; 
+    margin-left: 100px; 
+    margin-top: 50px;
+}
+.last-part p{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+
+} 
+.another-invite{ 
+    margin-left: 22%;
+    padding: 2% 20%; 
+    
+    
+}
+
+/* Footer section  */
