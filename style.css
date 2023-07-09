@@ -380,3 +380,32 @@ form p{
 }
 
 /* Footer section  */
+.footer-section{
+    background-color: #F84661; 
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+} 
+.footers{
+    width: 1200px;
+}
+.footer{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr); 
+    color: white;
+} 
+.another-footer img{
+    width: 150px;
+}
+.another-footer p{
+    margin-top: 40px;
+    font-size: 18px;
+} 
+.company h4{
+    font-size: 20px;
+}
+.company ul li{
+    list-style: none;
+    font-size: 18px;
+}
